@@ -22,11 +22,11 @@
 
 stdenv.mkDerivation rec {
   pname = "gnome-mines";
-  version = "40.1";
+  version = "48.alpha.2";
 
   src = fetchurl {
     url = "mirror://gnome/sources/gnome-mines/${lib.versions.major version}/gnome-mines-${version}.tar.xz";
-    hash = "sha256-NQLps/ccs7LnEcDmAZGH/rzCvKh349RW3KtwD3vjEnI=";
+    hash = "sha256-ABxs04IprPiNN3irQI/9sRkRoWk7cfV0WcFsbFsK1UM=";
   };
 
   nativeBuildInputs = [
